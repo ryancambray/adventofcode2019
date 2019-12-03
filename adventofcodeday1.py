@@ -1,5 +1,8 @@
 import math
 
+def main():
+	sum_fuel()
+
 def sum_fuel():
 	# Import file with mass list
 	with open("adventofcodeday1") as file:
@@ -16,4 +19,4 @@ def calculate_fuel(mass):
 	print("Fuel calculated from mass of '{}': {}".format(mass, fuel))
 	return fuel
 
-sum_fuel()
+main()
